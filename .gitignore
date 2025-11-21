@@ -1,0 +1,13 @@
+# OpenTofu / Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+tofu.tfstate
+tofu.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*.backup
+*.log
+*.pem
