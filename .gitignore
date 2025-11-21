@@ -11,3 +11,8 @@ override.tf.json
 *.backup
 *.log
 *.pem
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+crash.log
