@@ -1,0 +1,15 @@
+# OpenTofu / Terraform files to ignore
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+*.tfvars
+*.tfvars.json
+*.backup
+.plugin-cache/
