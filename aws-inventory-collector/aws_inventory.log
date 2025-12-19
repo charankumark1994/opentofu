@@ -1,0 +1,48 @@
+2025-12-02 10:31:11,106 - INFO - Starting AWS Inventory Collection...
+2025-12-02 10:31:11,967 - INFO - Regions found: ['ap-south-2', 'ap-south-1', 'eu-north-1', 'eu-west-3', 'eu-west-2', 'eu-west-1', 'ap-northeast-3', 'ap-northeast-2', 'ap-northeast-1', 'ca-central-1', 'sa-east-1', 'ap-southeast-1', 'ap-southeast-2', 'eu-central-1', 'us-east-1', 'us-east-2', 'us-west-1', 'us-west-2']
+2025-12-02 10:31:12,090 - INFO - Collecting EC2 instances from region: ap-south-2
+2025-12-02 10:31:12,394 - INFO - Collecting EC2 instances from region: ap-south-1
+2025-12-02 10:31:12,733 - INFO - Collecting EC2 instances from region: eu-north-1
+2025-12-02 10:31:13,563 - INFO - Collecting EC2 instances from region: eu-west-3
+2025-12-02 10:31:14,523 - INFO - Collecting EC2 instances from region: eu-west-2
+2025-12-02 10:31:15,323 - INFO - Collecting EC2 instances from region: eu-west-1
+2025-12-02 10:31:16,198 - INFO - Collecting EC2 instances from region: ap-northeast-3
+2025-12-02 10:31:16,962 - INFO - Collecting EC2 instances from region: ap-northeast-2
+2025-12-02 10:31:17,756 - INFO - Collecting EC2 instances from region: ap-northeast-1
+2025-12-02 10:31:18,499 - INFO - Collecting EC2 instances from region: ca-central-1
+2025-12-02 10:31:19,665 - INFO - Collecting EC2 instances from region: sa-east-1
+2025-12-02 10:31:21,147 - INFO - Collecting EC2 instances from region: ap-southeast-1
+2025-12-02 10:31:21,621 - INFO - Collecting EC2 instances from region: ap-southeast-2
+2025-12-02 10:31:22,923 - INFO - Collecting EC2 instances from region: eu-central-1
+2025-12-02 10:31:23,675 - INFO - Collecting EC2 instances from region: us-east-1
+2025-12-02 10:31:25,026 - INFO - Collecting EC2 instances from region: us-east-2
+2025-12-02 10:31:26,717 - INFO - Collecting EC2 instances from region: us-west-1
+2025-12-02 10:31:28,338 - INFO - Collecting EC2 instances from region: us-west-2
+2025-12-02 10:31:29,561 - INFO - Collecting S3 buckets...
+2025-12-02 10:31:30,057 - INFO - Writing inventory to aws_inventory.xlsx
+2025-12-02 10:31:30,132 - INFO - Excel report created successfully with formatting.
+2025-12-02 10:31:30,132 - INFO - Inventory collection completed successfully.
+2025-12-03 06:29:26,240 - INFO - Starting AWS Inventory Collection...
+2025-12-03 06:29:27,109 - INFO - Regions found: ['ap-south-2', 'ap-south-1', 'eu-north-1', 'eu-west-3', 'eu-west-2', 'eu-west-1', 'ap-northeast-3', 'ap-northeast-2', 'ap-northeast-1', 'ca-central-1', 'sa-east-1', 'ap-southeast-1', 'ap-southeast-2', 'eu-central-1', 'us-east-1', 'us-east-2', 'us-west-1', 'us-west-2']
+2025-12-03 06:29:27,257 - INFO - Collecting EC2 instances from region: ap-south-2
+2025-12-03 06:29:27,623 - INFO - Collecting EC2 instances from region: ap-south-1
+2025-12-03 06:29:27,898 - INFO - Collecting EC2 instances from region: eu-north-1
+2025-12-03 06:29:28,736 - INFO - Collecting EC2 instances from region: eu-west-3
+2025-12-03 06:29:29,498 - INFO - Collecting EC2 instances from region: eu-west-2
+2025-12-03 06:29:30,329 - INFO - Collecting EC2 instances from region: eu-west-1
+2025-12-03 06:29:31,524 - INFO - Collecting EC2 instances from region: ap-northeast-3
+2025-12-03 06:29:32,500 - INFO - Collecting EC2 instances from region: ap-northeast-2
+2025-12-03 06:29:33,438 - INFO - Collecting EC2 instances from region: ap-northeast-1
+2025-12-03 06:29:34,209 - INFO - Collecting EC2 instances from region: ca-central-1
+2025-12-03 06:29:35,267 - INFO - Collecting EC2 instances from region: sa-east-1
+2025-12-03 06:29:36,827 - INFO - Collecting EC2 instances from region: ap-southeast-1
+2025-12-03 06:29:37,682 - INFO - Collecting EC2 instances from region: ap-southeast-2
+2025-12-03 06:29:38,732 - INFO - Collecting EC2 instances from region: eu-central-1
+2025-12-03 06:29:39,511 - INFO - Collecting EC2 instances from region: us-east-1
+2025-12-03 06:29:41,363 - INFO - Collecting EC2 instances from region: us-east-2
+2025-12-03 06:29:42,625 - INFO - Collecting EC2 instances from region: us-west-1
+2025-12-03 06:29:43,808 - INFO - Collecting EC2 instances from region: us-west-2
+2025-12-03 06:29:45,013 - INFO - Collecting S3 buckets...
+2025-12-03 06:29:45,534 - INFO - Writing inventory to aws_inventory.xlsx
+2025-12-03 06:29:46,440 - INFO - Excel report created successfully.
+2025-12-03 06:29:46,440 - INFO - Inventory collection completed successfully.

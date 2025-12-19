@@ -1,4 +1,4 @@
-terraform {
+ssh -i "my-key.pem" ec2-user@16.176.129.203terraform {
   required_version = ">= 1.7.0"
 
   required_providers {

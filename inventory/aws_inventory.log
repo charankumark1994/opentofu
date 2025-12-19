@@ -1,0 +1,62 @@
+2025-12-04 06:37:05,871 - INFO - Starting AWS Inventory Collection...
+2025-12-04 06:37:06,683 - INFO - Regions found: ['ap-south-2', 'ap-south-1', 'eu-north-1', 'eu-west-3', 'eu-west-2', 'eu-west-1', 'ap-northeast-3', 'ap-northeast-2', 'ap-northeast-1', 'ca-central-1', 'sa-east-1', 'ap-southeast-1', 'ap-southeast-2', 'eu-central-1', 'us-east-1', 'us-east-2', 'us-west-1', 'us-west-2']
+2025-12-04 06:37:06,813 - INFO - Collecting EC2 instances from region: ap-south-2
+2025-12-04 06:37:07,099 - INFO - Collecting EC2 instances from region: ap-south-1
+2025-12-04 06:37:07,381 - INFO - Collecting EC2 instances from region: eu-north-1
+2025-12-04 06:37:08,328 - INFO - Collecting EC2 instances from region: eu-west-3
+2025-12-04 06:37:09,297 - INFO - Collecting EC2 instances from region: eu-west-2
+2025-12-04 06:37:10,145 - INFO - Collecting EC2 instances from region: eu-west-1
+2025-12-04 06:37:10,974 - INFO - Collecting EC2 instances from region: ap-northeast-3
+2025-12-04 06:37:11,750 - INFO - Collecting EC2 instances from region: ap-northeast-2
+2025-12-04 06:37:12,527 - INFO - Collecting EC2 instances from region: ap-northeast-1
+2025-12-04 06:37:13,306 - INFO - Collecting EC2 instances from region: ca-central-1
+2025-12-04 06:37:14,411 - INFO - Collecting EC2 instances from region: sa-east-1
+2025-12-04 06:37:15,958 - INFO - Collecting EC2 instances from region: ap-southeast-1
+2025-12-04 06:37:16,406 - INFO - Collecting EC2 instances from region: ap-southeast-2
+2025-12-04 06:37:17,725 - INFO - Collecting EC2 instances from region: eu-central-1
+2025-12-04 06:37:18,543 - INFO - Collecting EC2 instances from region: us-east-1
+2025-12-04 06:37:19,780 - INFO - Collecting EC2 instances from region: us-east-2
+2025-12-04 06:37:21,114 - INFO - Collecting EC2 instances from region: us-west-1
+2025-12-04 06:37:22,298 - INFO - Collecting EC2 instances from region: us-west-2
+2025-12-04 06:37:23,417 - INFO - Collecting S3 buckets...
+2025-12-04 06:37:23,924 - INFO - Fetching EBS volumes in ap-south-2
+2025-12-04 06:37:24,146 - INFO - Found 0 unused volumes in ap-south-2
+2025-12-04 06:37:24,147 - INFO - Fetching EBS volumes in ap-south-1
+2025-12-04 06:37:24,266 - INFO - Found 0 unused volumes in ap-south-1
+2025-12-04 06:37:24,267 - INFO - Fetching EBS volumes in eu-north-1
+2025-12-04 06:37:25,025 - INFO - Found 0 unused volumes in eu-north-1
+2025-12-04 06:37:25,027 - INFO - Fetching EBS volumes in eu-west-3
+2025-12-04 06:37:25,747 - INFO - Found 0 unused volumes in eu-west-3
+2025-12-04 06:37:25,754 - INFO - Fetching EBS volumes in eu-west-2
+2025-12-04 06:37:27,065 - INFO - Found 0 unused volumes in eu-west-2
+2025-12-04 06:37:27,068 - INFO - Fetching EBS volumes in eu-west-1
+2025-12-04 06:37:27,828 - INFO - Found 0 unused volumes in eu-west-1
+2025-12-04 06:37:27,832 - INFO - Fetching EBS volumes in ap-northeast-3
+2025-12-04 06:37:28,568 - INFO - Found 0 unused volumes in ap-northeast-3
+2025-12-04 06:37:28,571 - INFO - Fetching EBS volumes in ap-northeast-2
+2025-12-04 06:37:29,199 - INFO - Found 0 unused volumes in ap-northeast-2
+2025-12-04 06:37:29,200 - INFO - Fetching EBS volumes in ap-northeast-1
+2025-12-04 06:37:29,802 - INFO - Found 0 unused volumes in ap-northeast-1
+2025-12-04 06:37:29,803 - INFO - Fetching EBS volumes in ca-central-1
+2025-12-04 06:37:30,802 - INFO - Found 0 unused volumes in ca-central-1
+2025-12-04 06:37:30,803 - INFO - Fetching EBS volumes in sa-east-1
+2025-12-04 06:37:32,195 - INFO - Found 0 unused volumes in sa-east-1
+2025-12-04 06:37:32,197 - INFO - Fetching EBS volumes in ap-southeast-1
+2025-12-04 06:37:32,544 - INFO - Found 0 unused volumes in ap-southeast-1
+2025-12-04 06:37:32,546 - INFO - Fetching EBS volumes in ap-southeast-2
+2025-12-04 06:37:33,271 - INFO - Found 0 unused volumes in ap-southeast-2
+2025-12-04 06:37:33,273 - INFO - Fetching EBS volumes in eu-central-1
+2025-12-04 06:37:33,947 - INFO - Found 0 unused volumes in eu-central-1
+2025-12-04 06:37:33,948 - INFO - Fetching EBS volumes in us-east-1
+2025-12-04 06:37:34,964 - INFO - Found 0 unused volumes in us-east-1
+2025-12-04 06:37:34,966 - INFO - Fetching EBS volumes in us-east-2
+2025-12-04 06:37:36,408 - INFO - Found 0 unused volumes in us-east-2
+2025-12-04 06:37:36,410 - INFO - Fetching EBS volumes in us-west-1
+2025-12-04 06:37:37,472 - INFO - Found 0 unused volumes in us-west-1
+2025-12-04 06:37:37,474 - INFO - Fetching EBS volumes in us-west-2
+2025-12-04 06:37:38,546 - INFO - Found 0 unused volumes in us-west-2
+2025-12-04 06:37:38,550 - INFO - Fetching AWS costs...
+2025-12-04 06:37:39,604 - INFO - AWS costs fetched successfully.
+2025-12-04 06:37:39,606 - INFO - Writing inventory to aws_inventory.xlsx
+2025-12-04 06:37:39,622 - INFO - Excel report created successfully.
+2025-12-04 06:37:39,622 - INFO - Inventory collection completed successfully.

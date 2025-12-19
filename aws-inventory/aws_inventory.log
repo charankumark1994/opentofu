@@ -1,0 +1,146 @@
+2025-11-28 08:47:53,305 - INFO - AWS Inventory Script Started
+2025-11-28 08:47:53,305 - INFO - Script execution started
+2025-11-28 08:47:53,305 - INFO - Fetching all AWS regions
+2025-11-28 08:47:53,372 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-11-28 08:48:04,893 - INFO - Regions fetched: ['ap-south-2', 'ap-south-1', 'eu-south-1', 'eu-south-2', 'me-central-1', 'il-central-1', 'ca-central-1', 'ap-east-2', 'mx-central-1', 'eu-central-1', 'eu-central-2', 'us-west-1', 'us-west-2', 'af-south-1', 'eu-north-1', 'eu-west-3', 'eu-west-2', 'eu-west-1', 'ap-northeast-3', 'ap-northeast-2', 'me-south-1', 'ap-northeast-1', 'sa-east-1', 'ap-east-1', 'ca-west-1', 'ap-southeast-1', 'ap-southeast-2', 'ap-southeast-3', 'ap-southeast-4', 'us-east-1', 'ap-southeast-5', 'ap-southeast-6', 'us-east-2', 'ap-southeast-7']
+2025-11-28 08:48:04,894 - INFO - Fetching EC2 instances in region: ap-south-2
+2025-11-28 08:48:05,091 - INFO - EC2 instances found in ap-south-2: 0
+2025-11-28 08:48:05,092 - INFO - Fetching Lambda functions in region: ap-south-2
+2025-11-28 08:48:05,310 - INFO - Lambda functions found in ap-south-2: 0
+2025-11-28 08:48:05,312 - INFO - Fetching EC2 instances in region: ap-south-1
+2025-11-28 08:48:05,466 - INFO - EC2 instances found in ap-south-1: 0
+2025-11-28 08:48:05,468 - INFO - Fetching Lambda functions in region: ap-south-1
+2025-11-28 08:48:05,570 - INFO - Lambda functions found in ap-south-1: 0
+2025-11-28 08:48:05,572 - INFO - Fetching EC2 instances in region: eu-south-1
+2025-11-28 08:48:06,155 - WARNING - EC2 access denied for region eu-south-1: AuthFailure
+2025-11-28 08:48:06,156 - INFO - Fetching Lambda functions in region: eu-south-1
+2025-11-28 08:48:06,600 - WARNING - Lambda access denied in eu-south-1: UnrecognizedClientException
+2025-11-28 08:48:06,601 - INFO - Fetching EC2 instances in region: eu-south-2
+2025-11-28 08:48:07,266 - WARNING - EC2 access denied for region eu-south-2: AuthFailure
+2025-11-28 08:48:07,268 - INFO - Fetching Lambda functions in region: eu-south-2
+2025-11-28 08:48:07,780 - WARNING - Lambda access denied in eu-south-2: UnrecognizedClientException
+2025-11-28 08:48:07,782 - INFO - Fetching EC2 instances in region: me-central-1
+2025-11-28 08:48:08,081 - WARNING - EC2 access denied for region me-central-1: AuthFailure
+2025-11-28 08:48:08,083 - INFO - Fetching Lambda functions in region: me-central-1
+2025-11-28 08:48:08,357 - WARNING - Lambda access denied in me-central-1: UnrecognizedClientException
+2025-11-28 08:48:08,358 - INFO - Fetching EC2 instances in region: il-central-1
+2025-11-28 08:48:09,076 - WARNING - EC2 access denied for region il-central-1: AuthFailure
+2025-11-28 08:48:09,078 - INFO - Fetching Lambda functions in region: il-central-1
+2025-11-28 08:48:09,632 - WARNING - Lambda access denied in il-central-1: UnrecognizedClientException
+2025-11-28 08:48:09,633 - INFO - Fetching EC2 instances in region: ca-central-1
+2025-11-28 08:48:10,611 - INFO - EC2 instances found in ca-central-1: 0
+2025-11-28 08:48:10,612 - INFO - Fetching Lambda functions in region: ca-central-1
+2025-11-28 08:48:11,480 - INFO - Lambda functions found in ca-central-1: 0
+2025-11-28 08:48:11,483 - INFO - Fetching EC2 instances in region: ap-east-2
+2025-11-28 08:48:12,136 - WARNING - EC2 access denied for region ap-east-2: AuthFailure
+2025-11-28 08:48:12,137 - INFO - Fetching Lambda functions in region: ap-east-2
+2025-11-28 08:48:12,646 - WARNING - Lambda access denied in ap-east-2: UnrecognizedClientException
+2025-11-28 08:48:12,647 - INFO - Fetching EC2 instances in region: mx-central-1
+2025-11-28 08:48:13,979 - WARNING - EC2 access denied for region mx-central-1: AuthFailure
+2025-11-28 08:48:13,981 - INFO - Fetching Lambda functions in region: mx-central-1
+2025-11-28 08:48:15,002 - WARNING - Lambda access denied in mx-central-1: UnrecognizedClientException
+2025-11-28 08:48:15,006 - INFO - Fetching EC2 instances in region: eu-central-1
+2025-11-28 08:48:15,712 - INFO - EC2 instances found in eu-central-1: 0
+2025-11-28 08:48:15,715 - INFO - Fetching Lambda functions in region: eu-central-1
+2025-11-28 08:48:16,262 - INFO - Lambda functions found in eu-central-1: 0
+2025-11-28 08:48:16,263 - INFO - Fetching EC2 instances in region: eu-central-2
+2025-11-28 08:48:16,931 - WARNING - EC2 access denied for region eu-central-2: AuthFailure
+2025-11-28 08:48:16,933 - INFO - Fetching Lambda functions in region: eu-central-2
+2025-11-28 08:48:17,390 - WARNING - Lambda access denied in eu-central-2: UnrecognizedClientException
+2025-11-28 08:48:17,391 - INFO - Fetching EC2 instances in region: us-west-1
+2025-11-28 08:48:18,506 - INFO - EC2 instances found in us-west-1: 0
+2025-11-28 08:48:18,507 - INFO - Fetching Lambda functions in region: us-west-1
+2025-11-28 08:48:19,284 - INFO - Lambda functions found in us-west-1: 0
+2025-11-28 08:48:19,286 - INFO - Fetching EC2 instances in region: us-west-2
+2025-11-28 08:48:20,321 - INFO - EC2 instances found in us-west-2: 0
+2025-11-28 08:48:20,324 - INFO - Fetching Lambda functions in region: us-west-2
+2025-11-28 08:48:21,223 - INFO - Lambda functions found in us-west-2: 0
+2025-11-28 08:48:21,224 - INFO - Fetching EC2 instances in region: af-south-1
+2025-11-28 08:48:22,229 - WARNING - EC2 access denied for region af-south-1: AuthFailure
+2025-11-28 08:48:22,230 - INFO - Fetching Lambda functions in region: af-south-1
+2025-11-28 08:48:22,961 - WARNING - Lambda access denied in af-south-1: UnrecognizedClientException
+2025-11-28 08:48:22,962 - INFO - Fetching EC2 instances in region: eu-north-1
+2025-11-28 08:48:23,658 - INFO - EC2 instances found in eu-north-1: 0
+2025-11-28 08:48:23,659 - INFO - Fetching Lambda functions in region: eu-north-1
+2025-11-28 08:48:24,228 - INFO - Lambda functions found in eu-north-1: 0
+2025-11-28 08:48:24,229 - INFO - Fetching EC2 instances in region: eu-west-3
+2025-11-28 08:48:24,867 - INFO - EC2 instances found in eu-west-3: 0
+2025-11-28 08:48:24,868 - INFO - Fetching Lambda functions in region: eu-west-3
+2025-11-28 08:48:25,427 - INFO - Lambda functions found in eu-west-3: 0
+2025-11-28 08:48:25,429 - INFO - Fetching EC2 instances in region: eu-west-2
+2025-11-28 08:48:26,301 - INFO - EC2 instances found in eu-west-2: 0
+2025-11-28 08:48:26,303 - INFO - Fetching Lambda functions in region: eu-west-2
+2025-11-28 08:48:26,843 - INFO - Lambda functions found in eu-west-2: 0
+2025-11-28 08:48:26,844 - INFO - Fetching EC2 instances in region: eu-west-1
+2025-11-28 08:48:27,608 - INFO - EC2 instances found in eu-west-1: 0
+2025-11-28 08:48:27,609 - INFO - Fetching Lambda functions in region: eu-west-1
+2025-11-28 08:48:28,147 - INFO - Lambda functions found in eu-west-1: 0
+2025-11-28 08:48:28,148 - INFO - Fetching EC2 instances in region: ap-northeast-3
+2025-11-28 08:48:28,833 - INFO - EC2 instances found in ap-northeast-3: 0
+2025-11-28 08:48:28,835 - INFO - Fetching Lambda functions in region: ap-northeast-3
+2025-11-28 08:48:29,357 - INFO - Lambda functions found in ap-northeast-3: 0
+2025-11-28 08:48:29,358 - INFO - Fetching EC2 instances in region: ap-northeast-2
+2025-11-28 08:48:30,055 - INFO - EC2 instances found in ap-northeast-2: 0
+2025-11-28 08:48:30,057 - INFO - Fetching Lambda functions in region: ap-northeast-2
+2025-11-28 08:48:30,585 - INFO - Lambda functions found in ap-northeast-2: 0
+2025-11-28 08:48:30,587 - INFO - Fetching EC2 instances in region: me-south-1
+2025-11-28 08:48:30,898 - WARNING - EC2 access denied for region me-south-1: AuthFailure
+2025-11-28 08:48:30,900 - INFO - Fetching Lambda functions in region: me-south-1
+2025-11-28 08:48:31,151 - WARNING - Lambda access denied in me-south-1: UnrecognizedClientException
+2025-11-28 08:48:31,152 - INFO - Fetching EC2 instances in region: ap-northeast-1
+2025-11-28 08:48:31,795 - INFO - EC2 instances found in ap-northeast-1: 0
+2025-11-28 08:48:31,797 - INFO - Fetching Lambda functions in region: ap-northeast-1
+2025-11-28 08:48:32,370 - INFO - Lambda functions found in ap-northeast-1: 0
+2025-11-28 08:48:32,371 - INFO - Fetching EC2 instances in region: sa-east-1
+2025-11-28 08:48:33,774 - INFO - EC2 instances found in sa-east-1: 0
+2025-11-28 08:48:33,776 - INFO - Fetching Lambda functions in region: sa-east-1
+2025-11-28 08:48:34,847 - INFO - Lambda functions found in sa-east-1: 0
+2025-11-28 08:48:34,850 - INFO - Fetching EC2 instances in region: ap-east-1
+2025-11-28 08:48:35,342 - WARNING - EC2 access denied for region ap-east-1: AuthFailure
+2025-11-28 08:48:35,344 - INFO - Fetching Lambda functions in region: ap-east-1
+2025-11-28 08:48:35,710 - WARNING - Lambda access denied in ap-east-1: UnrecognizedClientException
+2025-11-28 08:48:35,712 - INFO - Fetching EC2 instances in region: ca-west-1
+2025-11-28 08:48:36,809 - WARNING - EC2 access denied for region ca-west-1: AuthFailure
+2025-11-28 08:48:36,811 - INFO - Fetching Lambda functions in region: ca-west-1
+2025-11-28 08:48:37,723 - WARNING - Lambda access denied in ca-west-1: UnrecognizedClientException
+2025-11-28 08:48:37,724 - INFO - Fetching EC2 instances in region: ap-southeast-1
+2025-11-28 08:48:38,146 - INFO - EC2 instances found in ap-southeast-1: 0
+2025-11-28 08:48:38,147 - INFO - Fetching Lambda functions in region: ap-southeast-1
+2025-11-28 08:48:38,420 - INFO - Lambda functions found in ap-southeast-1: 0
+2025-11-28 08:48:38,422 - INFO - Fetching EC2 instances in region: ap-southeast-2
+2025-11-28 08:48:39,198 - INFO - EC2 instances found in ap-southeast-2: 1
+2025-11-28 08:48:39,199 - INFO - Fetching Lambda functions in region: ap-southeast-2
+2025-11-28 08:48:39,762 - INFO - Lambda functions found in ap-southeast-2: 0
+2025-11-28 08:48:39,763 - INFO - Fetching EC2 instances in region: ap-southeast-3
+2025-11-28 08:48:40,139 - WARNING - EC2 access denied for region ap-southeast-3: AuthFailure
+2025-11-28 08:48:40,141 - INFO - Fetching Lambda functions in region: ap-southeast-3
+2025-11-28 08:48:40,432 - WARNING - Lambda access denied in ap-southeast-3: UnrecognizedClientException
+2025-11-28 08:48:40,435 - INFO - Fetching EC2 instances in region: ap-southeast-4
+2025-11-28 08:48:41,148 - WARNING - EC2 access denied for region ap-southeast-4: AuthFailure
+2025-11-28 08:48:41,149 - INFO - Fetching Lambda functions in region: ap-southeast-4
+2025-11-28 08:48:41,694 - WARNING - Lambda access denied in ap-southeast-4: UnrecognizedClientException
+2025-11-28 08:48:41,695 - INFO - Fetching EC2 instances in region: us-east-1
+2025-11-28 08:48:42,760 - INFO - EC2 instances found in us-east-1: 1
+2025-11-28 08:48:42,761 - INFO - Fetching Lambda functions in region: us-east-1
+2025-11-28 08:48:43,475 - INFO - Lambda functions found in us-east-1: 0
+2025-11-28 08:48:43,477 - INFO - Fetching EC2 instances in region: ap-southeast-5
+2025-11-28 08:48:43,888 - WARNING - EC2 access denied for region ap-southeast-5: AuthFailure
+2025-11-28 08:48:43,889 - INFO - Fetching Lambda functions in region: ap-southeast-5
+2025-11-28 08:48:44,148 - WARNING - Lambda access denied in ap-southeast-5: UnrecognizedClientException
+2025-11-28 08:48:44,149 - INFO - Fetching EC2 instances in region: ap-southeast-6
+2025-11-28 08:48:44,923 - WARNING - EC2 access denied for region ap-southeast-6: AuthFailure
+2025-11-28 08:48:44,924 - INFO - Fetching Lambda functions in region: ap-southeast-6
+2025-11-28 08:48:45,520 - WARNING - Lambda access denied in ap-southeast-6: UnrecognizedClientException
+2025-11-28 08:48:45,522 - INFO - Fetching EC2 instances in region: us-east-2
+2025-11-28 08:48:46,604 - INFO - EC2 instances found in us-east-2: 0
+2025-11-28 08:48:46,606 - INFO - Fetching Lambda functions in region: us-east-2
+2025-11-28 08:48:47,443 - INFO - Lambda functions found in us-east-2: 0
+2025-11-28 08:48:47,444 - INFO - Fetching EC2 instances in region: ap-southeast-7
+2025-11-28 08:48:47,876 - WARNING - EC2 access denied for region ap-southeast-7: AuthFailure
+2025-11-28 08:48:47,877 - INFO - Fetching Lambda functions in region: ap-southeast-7
+2025-11-28 08:48:48,222 - WARNING - Lambda access denied in ap-southeast-7: UnrecognizedClientException
+2025-11-28 08:48:48,223 - INFO - Fetching S3 buckets
+2025-11-28 08:48:49,186 - INFO - S3 buckets found: 1
+2025-11-28 08:48:49,187 - INFO - Writing data to Excel file aws_inventory2.xlsx
+2025-11-28 08:48:49,198 - INFO - Excel export completed successfully
+2025-11-28 08:48:49,198 - INFO - Script execution finished
