@@ -1,0 +1,80 @@
+In AWS:
+•	Developers create EC2, EBS, ELB, RDS, etc.
+•	They forget to delete them
+•	AWS keeps charging 
+Automatically delete only those resources that we explicitly allow to be deleted, so costs stay low and production stays safe.
+EventBridge (Schedule)->Lambda Function->AWS APIs 
+
+
+1.EventBridge – WHY we need it
+What is EventBridge?
+AWS’s scheduler.
+Why use EventBridge?
+Because:
+•	Lambda does NOT run by itself
+•	We need something to trigger it automatically
+•	EventBridge is:
+o	Serverless
+o	Cheap
+o	Reliable
+What it does here
+“Run cleanup every day at  some time ”
+Every night → wake up Lambda → do cleanup → sleep again
+2. Lambda Function – WHY we use it
+What is Lambda?
+•	Serverless function
+•	Runs code only when needed
+•	No EC2, no servers, no maintenance
+Lambda’s role here
+Lambda is the decision-maker:
+•	List resources
+•	Check tags
+•	Decide delete or skip
+•	Call AWS delete APIs
+3.  IAM Role – WHY it is mandatory
+Important rule in AWS
+Lambda cannot do ANYTHING unless IAM allows it
+Why IAM Role?
+•	Lambda needs permission to:
+o	List EC2
+o	Delete EC2
+o	Delete EBS, ELB, etc.
+Lambda starts
+→ AWS gives it temporary role credentials
+→ Lambda calls AWS APIs securely
+4. Tags – WHY they are the SAFETY SWITCH
+What is a tag?
+A key–value metadata:
+
+Key   = AutoDelete
+Value = true
+6. Terraform – WHY we use it
+Why NOT click in AWS Console?
+•	Manual
+•	Error-prone
+•	Not repeatable
+Terraform Benefits
+✔ Infrastructure as Code
+✔ Version control
+✔ Easy rollback
+✔ Same setup in all accounts
+
+
+
+
+aws-auto-cleanup/
+│
+├── lambda/
+│   ├── cleanup.py          # Lambda Python code (delete logic)
+│   └── cleanup.zip         # Zipped lambda package (generated)
+│
+├── terraform/
+│   ├── provider.tf         # AWS provider config
+│   ├── iam.tf              # IAM role & permissions
+│   ├── lambda.tf           # Lambda function resource
+│   ├── eventbridge.tf      # Scheduler (cron)
+│   └── outputs.tf          # (Optional) outputs
+│
+├── README.md               # How to run & understand
+│
+└── .gitignore              # Ignore zip & terraform state

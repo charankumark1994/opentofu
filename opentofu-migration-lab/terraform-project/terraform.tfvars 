@@ -1,0 +1,11 @@
+# Customize these values if needed
+aws_region   = "us-east-1"
+environment  = "migration-lab"
+owner        = "your-name"
+instance_type = "t2.micro"
+
+# Uncomment and customize if using different AZs
+# availability_zones = ["us-east-1a", "us-east-1b"]
+
+# Uncomment to restrict SSH access (recommended)
+# allowed_ssh_cidr = "YOUR.IP.ADDRESS.HERE/32"
